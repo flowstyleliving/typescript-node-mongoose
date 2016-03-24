@@ -1,5 +1,5 @@
 <div class="container">
-  <form class="container well">
+  <form class="container well" ng-submit="vm.create()">
     <div>
       <label>Title: </label>
       <br>
@@ -23,5 +23,8 @@
       <input type="text" name="imageUrl" ng-model="vm.blog.imageUrl" class="form-control" />
     </div>
     <hr>
+    <div style="text-align: center">
++      <button type="submit" class="btn btn-primary">Submit</button>
++    </div>
   </form>
 </div>

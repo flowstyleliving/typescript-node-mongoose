@@ -8,7 +8,7 @@ namespace app {
 
     $stateProvider.state('Home', {
       url: '/',
-      templateUrl: '/templates/home.html',
+      templateUrl: '/templates/home.jade',
       controller: 'HomeController',
       controllerAs: 'vm'
     }).state('Create Blog', {

@@ -1,0 +1,10 @@
+h1 Home Page Gekko
+
+div.container.well(ng-repeat='b in vm.blogs')
+  div.col.col-sm-3
+    img.img-responseive(ng-src="{{b.imageUrl}}")
+  div.col.col-sm-9
+    h3 {{b.title}}
+    br
+    p {{b.datePosted | date:'longDate'}}
+    br
